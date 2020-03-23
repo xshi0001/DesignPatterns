@@ -1,5 +1,9 @@
-package com.geely.design.principle.liskovsubstitution.demo;
+package com.geely.design.principle.liskovsubstitution.definition1;
 
+/**
+ * 子类必须实现父类的抽象方法，但不得重写（覆盖）父类的非抽象（已实现）方法。
+ * @author xshi0
+ */
 public class demo {
     public static void main(String[] args){
         System.out.println("父类的运行结果");

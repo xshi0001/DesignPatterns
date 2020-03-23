@@ -6,6 +6,7 @@ import com.geely.design.principle.dependenceinversion.v4.impl.JavaCourse;
 /**
  * @program: designpatterns
  * @description:
+ *       controller层，调用service的功能或者接口
  * @author: JClearLove
  * @Date: 2020/03/22 10:25
  */

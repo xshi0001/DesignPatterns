@@ -2,6 +2,8 @@ package com.geely.design.principle.singleresponsibility;
 
 /**
  * Created by geely
+ *  单一职责  接口和方法层面
+ *
  */
 public class Test {
     public static void main(String[] args) {

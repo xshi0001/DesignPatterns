@@ -2,6 +2,7 @@ package com.geely.design.principle.singleresponsibility;
 
 /**
  * Created by geely
+ * method 方法层面的单一职责
  */
 public class Method {
     private void updateUserInfo(String userName,String address){
@@ -9,9 +10,13 @@ public class Method {
         address = "beijing";
     }
 
+    /**
+     * @param userName  用户名
+     * @param properties 其他信息，可变长度
+     */
     private void updateUserInfo(String userName,String... properties){
         userName = "geely";
-//        address = "beijing";
+
     }
 
     private void updateUsername(String userName){

@@ -1,7 +1,8 @@
 package com.geely.design.principle.interfacesegregation;
 
 /**
- * Created by geely
+ * Created by geely\
+ *  接口隔离原则
  */
 public interface IAnimalAction {
     void eat();

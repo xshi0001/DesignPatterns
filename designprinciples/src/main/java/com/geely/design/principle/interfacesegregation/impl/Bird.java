@@ -1,4 +1,6 @@
-package com.geely.design.principle.interfacesegregation;
+package com.geely.design.principle.interfacesegregation.impl;
+
+import com.geely.design.principle.interfacesegregation.IAnimalAction;
 
 /**
  * @program: designpatterns
@@ -6,7 +8,7 @@ package com.geely.design.principle.interfacesegregation;
  * @author: JClearLove
  * @Date: 2020/03/22 11:31
  */
-public class Bird implements  IAnimalAction {
+public class Bird implements IAnimalAction {
 
     @Override
     public void eat() {

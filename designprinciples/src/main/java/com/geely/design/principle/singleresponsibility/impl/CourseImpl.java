@@ -1,9 +1,12 @@
-package com.geely.design.principle.singleresponsibility;
+package com.geely.design.principle.singleresponsibility.impl;
+
+import com.geely.design.principle.singleresponsibility.ICourseContent;
+import com.geely.design.principle.singleresponsibility.ICourseManager;
 
 /**
  * Created by geely
  */
-public class CourseImpl implements ICourseManager,ICourseContent {
+public class CourseImpl implements ICourseManager, ICourseContent {
     @Override
     public void studyCourse() {
 
